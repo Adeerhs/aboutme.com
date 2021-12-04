@@ -1,0 +1,85 @@
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+
+.discordsocial {
+    font-family: monospace;
+    color: yellow;
+    font-size: 75px;
+    position: relative;
+    left: 15px;
+    z-index: 1;
+}
+
+#twitter {
+    font-size: 75px;
+    color: springgreen;
+    font-family: monospace;
+    position: relative;
+    bottom: 220px;
+    left: 15px;
+}
+
+.main div img {
+    width: 250px;
+    border-radius: 20px;
+    border: 5px solid white;
+    position: relative;
+    left: 200px;
+    top: -165px;
+    z-index: 1;
+}
+
+#discord {
+    font-size: 60px;
+    position: relative;
+    color: black;
+    z-index: 1;
+    top: -200px;
+    left: 15px;
+    font-family: monospace;
+}
+
+#spacing {
+    position: relative;
+    bottom: 180px;
+    color: white;
+    left: 0px;
+    letter-spacing: 10px;
+    font-size: 35px;
+}
+
+#twitterimg {
+    position: relative;
+    top: 90px;
+    right: 30px;
+}
+
+.donations {
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    font-family: monospace;
+    left: 15px;
+}
+
+.returntohomepage {
+    position: relative;
+    font-family: monospace;
+    font-size: 70px;
+    left: 940px;
+    bottom: 200px;
+}
